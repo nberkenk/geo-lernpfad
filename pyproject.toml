@@ -6,3 +6,8 @@ dependencies = [
     "geopandas>=1.2.0",
     "rasterio>=1.5.2",
 ]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.6.5",
+]
